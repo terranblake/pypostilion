@@ -1,0 +1,50 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://sec-service-postilion.herokuapp.com/api/5e0a95f40736540024ede646
+  response:
+    body: {
+      status: "downloading",
+      createdAt: "2019-12-31T00:26:01.484Z",
+      updatedAt: "2019-12-31T00:26:01.484Z",
+      _id: "5e0a95f40736540024ede646",
+      company: "5e0a95f20736540024ede643",
+      publishedAt: "2017-11-03T12:01:37.000Z",
+      fiscalYearEnd: "0930-01-01T00:00:00.000Z",
+      acceptedAt: "2017-11-03T08:01:37.000Z",
+      filedAt: "2017-11-03T00:00:00.000Z",
+      name: "Form 10-K",
+      period: "2017-09-30T00:00:00.000Z",
+      refId: "0000320193-17-000070",
+      source: "sec",
+      type: "10-K",
+      url: "https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/0000320193-17-000070-index.htm",
+      __v: 0
+    }
+    headers:
+      access-control-allow-origin: ['*']
+      cache-control: ['public, max-age=28800']
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-length: ['1180']
+      content-type: [application/json;charset=utf-8]
+      date: ['Tue, 15 Nov 2016 09:08:21 GMT']
+      etag: [W/"b054e2992c92c3613adef59c98dbc116"]
+      server: [openresty]
+      status: [200 OK]
+      vary: [Accept-Encoding]
+      x-memc: [HIT]
+      x-memc-age: ['5955']
+      x-memc-expires: ['22845']
+      x-memc-key: [c74db595fa187c90be00ec20cf9a07f6]
+      x-ratelimit-limit: ['40']
+      x-ratelimit-remaining: ['39']
+      x-ratelimit-reset: ['1479200911']
+    status: {code: 200, message: OK}
+version: 1
