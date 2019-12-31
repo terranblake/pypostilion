@@ -1,6 +1,6 @@
 # Postilion
 
-##### postilion is a wrapper around the publicly available postilion api
+#### postilion is a wrapper around the publicly available postilion api
 
 ## Installation
 
