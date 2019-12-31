@@ -78,6 +78,21 @@ print(roles)
 ['StatementOfIncome', 'StatementOfIncomeDiscontinuedOperationsAlternate', 'StatementOfIncomeFirstAlternative', 'StatementOfOtherComprehensiveIncome', 'StatementOfOtherComprehensiveIncomeAlternative', 'StatementOfOtherComprehensiveIncomeFouthAlternative', 'StatementOfOtherComprehensiveIncomeSecondAlternative', 'StatementOfOtherComprehensiveIncomeThirdAlternative', 'ReceivablesLoansNotesReceivableAndOthers', 'ReceivablesLoansNotesReceivableAndOthersLoansAlternate', 'RetirementBenefitsTmp011', 'RetirementBenefitsTmp012', 'RetirementBenefitsTmp02', 'RetirementBenefitsTmp03', 'RetirementBenefitsTmp04', 'RetirementBenefitsTmp041', 'RetirementBenefitsTmp05', 'RetirementBenefitsTmp06', 'RetirementBenefitsTmp07', 'RetirementBenefitsTmp08', 'RetirementBenefitsTmp09']
 ```
 
+## Coming soon
+### Get financial statement by ticker, year, statement and [quarter]
+```python
+statement = Financial.get(
+  ticker='rost',
+	year=2019,
+	statement='income-statement',
+	quarter=1
+)
+print(statement)
+```
+```javascript
+Coming soon...
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
