@@ -12,17 +12,17 @@ pip install postilion
 
 ## Usage
 
-Import postilion
+### Import postilion
 ```python
 import postilion as pst
 ```
 
-Destructure classes from module
+### Destructure classes from module
 ```python
 from pst import Company, Filing, Financial
 ```
 
-Get a company by ticker
+### Get a company by ticker
 ```
 company = Company.getByTicker('rost')
 print(company)
@@ -46,7 +46,7 @@ print(company)
 }
 ```
 
-Get all filings by company
+### Get all filings by company
 ```python
 filings = Filing.getByCompany(company['_id'])
 print(filings.head())
@@ -60,7 +60,7 @@ print(filings.head())
 4  5e0a9a860736540024ede663  downloading  2019-12-31T00:26:01.484Z  2019-12-31T00:26:01.484Z  ...    sec  10-K  https://www.sec.gov/Archives/edgar/data/745732...   0
 ```
 
-Get supported financial statements
+### Get supported financial statements
 ```python
 statements = Financial.statements()
 print(statements)
@@ -69,7 +69,7 @@ print(statements)
 ['balance-sheet', 'income-statement', 'cash-flow-statement', 'partners-capital-statement', 'financial-services']
 ```
 
-Get roles for a financial statement
+### Get roles for a financial statement
 ```python
 roles = Financial.roles('balance-sheet')
 print(roles)
