@@ -23,7 +23,7 @@ from pst import Company, Filing, Financial
 ```
 
 ### Get a company by ticker
-```
+```python
 company = Company.getByTicker('rost')
 print(company)
 ```
