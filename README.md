@@ -4,7 +4,7 @@
 
 ## Installation
 
-Use the package manager [pip]() to install postilion.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install postilion.
 
 ```bash
 pip install postilion
